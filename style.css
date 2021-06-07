@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Caveat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 90%;
+  font-family: "Amiri";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to left, #237a57, #093028);
+}
+
+.container {
+  position: absolute;
+  background: #90bda8;
+  top: 15%;
+  /* transform: translateY(-50%); */
+  min-height: 45%;
+  width: 75%;
+  border-radius: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.pragh {
+  position: absolute;
+  top: 2rem;
+  /* background: chartreuse; */
+  opacity: 0.5;
+}
+.fetcher {
+  /* background: crimson; */
+  /* width: 80%;
+  height: 50%; */
+  text-align: center;
+  padding: 4rem 0;
+  font-size: 25px;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #1d976c 0%,
+    #93f9b9 51%,
+    #1d976c 100%
+  );
+}
+.btn-grad {
+  padding: 10px 25px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: #000;
+  border-radius: 2rem;
+  display: block;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: rgba(0, 0, 0, 0.548);
+  text-decoration: none;
+}
+
+.btnNext {
+  position: absolute;
+  bottom: 1rem;
+
+  cursor: pointer;
+}
+img {
+  width: 200px;
+  position: absolute;
+  top: 2rem;
+}
+footer {
+  position: fixed;
+  font-size: 0.7rem;
+  bottom: 1rem;
+  left: 1rem;
+}
+a {
+  color: #000;
+}
+
+@media (max-width: 770px) {
+  footer {
+    font-size: 0.5rem;
+
+    left: 0rem;
+  }
+}
+@media (max-width: 370px) {
+  footer {
+    font-size: 0.3rem;
+
+    left: 0rem;
+  }
+}
